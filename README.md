@@ -16,7 +16,11 @@
 ## Githubライブラリの使い方
 - メインのコードを書く
 - go mod init モジュール名
-- go get github.com/username/repo
+- モジュールをダウンロードは２通りどちらかでする
+  - go mod tidy 
+  - go get github.com/username/repo
+- コードの実行
+
 ```go
 package main
  
