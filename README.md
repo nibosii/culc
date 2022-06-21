@@ -7,6 +7,7 @@
   - go mod init github.com/username/repo (ここきちんと書かないとダウンロードできない)
   - go mod tidy
   - コードを書く(関数は頭は大文字)
+  - モジュールはmain.goがないのでテストを書く
   - git add (ステージングは + を押す)
   - git commit (コメントを入れて ctrl + enter)
   - コマンドパレットから git add remote　(リモートの追加。gitを作っておかないと出てこない)
