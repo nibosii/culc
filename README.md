@@ -13,13 +13,16 @@
   - コマンドパレットから git add remote　(リモートの追加。gitを作っておかないと出てこない)
   - GithubのリポジトリのURLを貼り付ける。リモート名は\[origin]にしておく
   - git push ソース管理ビューの...をクリックしてメニュー先の\[プッシュ先...]を選択して[origin]を選択する
+- ライブラリの使用をやめる
+  - ファイルのimportからgithubのライブラリを削除する
+  - `go mod tidy`をするとgo modファイルから削除される
 
 ## Githubライブラリの使い方
 - メインのコードを書く
 - go mod init モジュール名
-- モジュールをダウンロードは２通りどちらかでする
+- モジュールをダウンロードする方法は２通りあるが、`go mod tidy`を使っておけばいい
   - go mod tidy 
-  - go get github.com/username/repo
+  - ~go get github.com/username/repo~
 - コードの実行
 
 ```go
