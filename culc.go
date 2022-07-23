@@ -16,3 +16,7 @@ func Div(x, y int)(int, int){
 	a, z := x / y, x % y
 	return a, z
 }
+
+func Deep(x int)int{
+	return x + 5 
+}
