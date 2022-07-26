@@ -20,3 +20,9 @@ func Div(x, y int)(int, int){
 func Deep(x int)int{
 	return x + 5 
 }
+
+// 奇数ならtrueを返す関数
+func Deep2(n int)bool{
+	return n & 1 == 1 
+}
+
