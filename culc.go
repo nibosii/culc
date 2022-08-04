@@ -22,7 +22,7 @@ func Div(x, y int)(int, int){
 	return a, z
 }
 
-func Deep(x int)int{
+func AddFive(x int)int{
 	return x + 5 
 }
 
