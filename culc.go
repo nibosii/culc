@@ -31,7 +31,7 @@ func Deep2(n int)bool{
 	return n & 1 == 1 
 }
 
-func Deep3(s string)int{
+func Strconvint(s string)int{
 	i, err:= strconv.Atoi(s)
 	if err != nil{
 		return 0
