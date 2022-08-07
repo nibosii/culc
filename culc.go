@@ -17,6 +17,6 @@ func Div(x, y int)(int, int){
 	return a, z
 }
 
-func AddFive(x int)int{
+func DeepFive(x int)int{
 	return x + 5 
 }
